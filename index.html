@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="box">
+                <div class="content-dados">
+                    <div class="text">
+                        <div class="title">
+                            <i class="ph-map-pin-line"></i>
+                            <h1>Dados Pessoais</h1>
+                        </div>
+                        <p>Informe seus dados pessoais para criarmos uma conta</p>
+                    </div>
+
+                    <div class="forms">
+                        <form>
+                            <input
+                             type="text"
+                             name="name" 
+                             placeholder="Nome completo"
+                             required>
+
+                            <input
+                             type="email"
+                             name="email"
+                             placeholder="E-mail"
+                             required>
+
+                             <div class="division-1">
+                                <input 
+                                 type="tel"
+                                 name="tel" 
+                                 placeholder="Telefone"
+                                 required>
+
+                                 <input
+                                  type="number" 
+                                  name="cpf" 
+                                  placeholder="CPF"
+                                  required>
+                             </div>
+
+                            <select required>
+                                <option selected value="">Sexo</option>
+                                <option value="masculino">Masculino</option>
+                                <option value="feminino">Feminino</option>
+                            </select>
+
+                            <button type="submit">
+                                Enviar
+                            </button>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="content-address">
+                    <div class="text">
+                        <div class="title">
+                            <i class="ph-map-pin-line"></i>
+                            <h1>Endereço de Entrega</h1>
+                        </div>
+                        <p>Informe seu endereço onde deseja receber seu pedido</p>
+                    </div>
+
+                    <div class="forms">
+                        <form>
+                            <input 
+                             type="tel" 
+                             name="cep" 
+                             placeholder="CEP"
+                             required>
+    
+                            <input 
+                             type="text" 
+                             name="street" 
+                             placeholder="Rua"
+                             required>
+    
+                             <div class="division-2">
+                                <input 
+                                 type="number" 
+                                 name="number" 
+                                 placeholder="Número"
+                                 required>
+    
+                                <input 
+                                 type="text" 
+                                 name="complement" 
+                                 placeholder="Complemento"
+                                 required>
+                             </div>
+    
+                            <input 
+                             type="text" 
+                             name="neighborhood" 
+                             placeholder="Bairro"
+                             required>
+    
+                             <div class="division-3">
+                                <input 
+                                 type="text" 
+                                 name="city" 
+                                 placeholder="Cidade"
+                                 required>
+    
+                                <select required>
+                                    <option selected value="">UF</option>
+                                    <option>AC</option>
+                                    <option>AL</option>
+                                    <option>AP</option>
+                                    <option>AM</option>
+                                    <option>BA</option>
+                                    <option>CE</option>
+                                    <option>DF</option>
+                                    <option>ES</option>
+                                    <option>GO</option>
+                                    <option>MA</option>
+                                    <option>MT</option>
+                                    <option>MS</option>
+                                    <option>MG</option>
+                                    <option>PA</option>
+                                    <option>PB</option>
+                                    <option>PR</option>
+                                    <option>PE</option>
+                                    <option>PI</option>
+                                    <option>RJ</option>
+                                    <option>RN</option>
+                                    <option>RS</option>
+                                    <option>RO</option>
+                                    <option>RR</option>
+                                    <option>SC</option>
+                                    <option>SP</option>
+                                    <option>SE</option>
+                                    <option>TO</option>
+                                </select>
+                             </div>
+    
+                            <button type="submit">
+                                Enviar
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
